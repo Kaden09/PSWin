@@ -1,7 +1,9 @@
+import { Header } from '@/features/header';
+
 export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-background">
-      MainPage
+      <Header />
     </div>
   );
 }
