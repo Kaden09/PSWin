@@ -3,12 +3,7 @@
 import { ChevronDown } from 'lucide-react';
 import { useState } from 'react';
 
-interface QuestionItemProps {
-  title: string;
-  desc: string;
-}
-
-function QuestionItem({ title, desc }: QuestionItemProps) {
+function QuestionItem({ title, desc }: IQuestionItem) {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   return (

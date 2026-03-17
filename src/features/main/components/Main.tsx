@@ -5,6 +5,8 @@ import { Gamepad, Rocket } from 'lucide-react';
 import QuestionItem from '@/features/faq/components/QuestionItem';
 import StepItem from '@/features/instruction/components/StepItem';
 import PlayStationCard from '@/features/playstation/components/PlayStationCard';
+import QuestionItemsList from '@/features/faq/components/QuestionItemsList';
+import { QuestionsSection } from '@/features/faq';
 
 function Main() {
   return (
@@ -18,10 +20,7 @@ function Main() {
         title="Учетные данные"
         desc="Вы получаете логин и пароль от игрового аккаунта."
       />
-      <QuestionItem
-        title="Как подключается подписка?"
-        desc="Наш менеджер Службы Заботы выдаст Вам логин и пароль от игрового аккаунта, который необходимо активировать по инструкции, после чего подписка начнёт работать на всех аккаунтах вашей консоли"
-      />
+      <QuestionsSection />
       <AdvantageItem icon={<Gamepad />} title="Title" />
       <FeedbackItem />
     </main>
