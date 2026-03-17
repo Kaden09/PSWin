@@ -6,7 +6,7 @@ function Navbar() {
     <nav>
       <ul className="flex gap-15 items-center justify-center text-secondary-font">
         {navbar_data.map((item) => (
-          <li>
+          <li key={item.title}>
             <Link href={item.link}>{item.title}</Link>
           </li>
         ))}
