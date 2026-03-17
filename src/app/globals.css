@@ -32,6 +32,18 @@
 
   /* Additional colors */
   --color-contrast: var(--contrast);
+
+  /* Animations */
+  --animate-carousel-right: carouselRight 20s linear infinite;
+}
+
+@keyframes carouselRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 body {

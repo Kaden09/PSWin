@@ -1,1 +1,1 @@
-export { default as FeedbackItem } from './components/FeedbackItem';
+export { default as FeedbackSection } from './components/FeedbackSection';
