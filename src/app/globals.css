@@ -3,7 +3,11 @@
 :root {
   /* Background colors */
   --primary-background: #02060a;
-  --secondary-background: #19334C;
+  --secondary-background: #0D1926;
+  --tertiary-background: #19334C;
+
+  /* Border colors */
+  --primary-border: #1A334D;
 
   /* Font colors */
   --primary-font: #fff;
@@ -17,6 +21,10 @@
   /* Background colors */
   --color-primary-background: var(--primary-background);
   --color-secondary-background: var(--secondary-background);
+  --color-tertiary-background: var(--tertiary-background);
+
+  /* Border colors */
+  --color-primary-border: var(--primary-border);
 
   /* Font colors */
   --color-primary-font: var(--primary-font);
