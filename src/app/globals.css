@@ -49,5 +49,4 @@
 body {
   background: var(--primary-background);
   color: var(--primary-font);
-  padding-inline: 120px;
 }

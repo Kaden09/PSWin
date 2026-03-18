@@ -19,7 +19,6 @@ function Main() {
         desc="Вы получаете логин и пароль от игрового аккаунта."
       />
       <QuestionsSection />
-      <AdvantageItem icon={<Gamepad />} title="Title" />
       <FeedbackSection />
     </main>
   );

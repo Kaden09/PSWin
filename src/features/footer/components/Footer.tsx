@@ -4,7 +4,7 @@ import FooterNavItem from './FooterNavItem';
 
 function Footer() {
   return (
-    <footer className="flex justify-between items-center bg-secondary-background w-full py-8">
+    <footer className="flex justify-between items-center bg-secondary-background w-full py-8 px-30">
       <FooterInfo />
       <FooterNav />
     </footer>

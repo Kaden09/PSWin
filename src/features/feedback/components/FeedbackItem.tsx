@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 function FeedbackItem({text, username, date}: IFeedback) {
   return (
-    <div className="flex flex-col gap-5 bg-secondary-background rounded-2xl p-8 shadow-[0_0_10px_0_#2a8cee] min-w-100 w-full">
+    <div className="flex flex-col gap-5 bg-secondary-background rounded-2xl p-8 shadow-[0_-1px_3px_0_#2a8cee] min-w-100 w-full">
       <div className="flex justify-between w-full items-center">
         <div className="flex gap-3 items-center">
           <Star fill="#2a8cee" stroke="#2a8cee" />
