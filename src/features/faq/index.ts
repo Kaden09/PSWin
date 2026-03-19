@@ -1,1 +1,1 @@
-export {default as QuestionsSection} from "./components/QuestionsSection";
+export { default as QuestionsSection } from './components/QuestionsSection';

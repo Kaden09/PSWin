@@ -1,5 +1,5 @@
 interface IFeedback {
-    text: string;
-    username: string;
-    date: string;
+  text: string;
+  username: string;
+  date: string;
 }

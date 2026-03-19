@@ -5,19 +5,15 @@ import { Gamepad, Rocket } from 'lucide-react';
 import StepItem from '@/features/instruction/components/StepItem';
 import PlayStationCard from '@/features/playstation/components/PlayStationCard';
 import { QuestionsSection } from '@/features/faq';
+import { InstructionSection } from '@/features/instruction';
 
 function Main() {
   return (
-    <main className='w-full'>
+    <main className="w-full">
       <HeroSection />
       <PlayStationCard />
       <EAPlayCard />
-      <StepItem
-        icon={<Rocket />}
-        step="01"
-        title="Учетные данные"
-        desc="Вы получаете логин и пароль от игрового аккаунта."
-      />
+      <InstructionSection />
       <QuestionsSection />
       <FeedbackSection />
     </main>
