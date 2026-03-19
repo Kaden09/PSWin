@@ -6,7 +6,7 @@ interface AdvantageItemProps {
 
 function AdvantageItem({ icon, title, className = '' }: AdvantageItemProps) {
   return (
-    <div className="flex gap-3 bg-secondary-background border border-primary-border rounded-xl py-2 px-4">
+    <div className={`flex gap-3 bg-secondary-background border border-primary-border rounded-xl py-2 px-4 w-full ${className}`}>
       <span>{icon}</span>
       <h3 className="">{title}</h3>
     </div>

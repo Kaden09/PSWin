@@ -1,17 +1,15 @@
 import { FeedbackSection } from '@/features/feedback';
 import { HeroSection } from '@/features/hero';
-import { AdvantageItem, EAPlayCard } from '@/features/eaplay';
-import { Gamepad, Rocket } from 'lucide-react';
-import StepItem from '@/features/instruction/components/StepItem';
-import PlayStationCard from '@/features/playstation/components/PlayStationCard';
+import { EAPlayCard } from '@/features/eaplay';
 import { QuestionsSection } from '@/features/faq';
 import { InstructionSection } from '@/features/instruction';
+import PlayStationSection from '@/features/playstation/components/PlayStationSection';
 
 function Main() {
   return (
     <main className="w-full">
       <HeroSection />
-      <PlayStationCard />
+      <PlayStationSection />
       <EAPlayCard />
       <InstructionSection />
       <QuestionsSection />

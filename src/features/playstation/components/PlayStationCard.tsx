@@ -6,14 +6,14 @@ function PlayStationCard() {
     <div className="flex flex-col gap-3 bg-secondary-background rounded-2xl p-10 border border-primary-border">
       <div className="flex items-end gap-5">
         <div className="bg-contrast rounded-2xl p-8">
-          <Image src="/telegram.svg" alt="playstation" width={50} height={50} />
+          <Image src="/playstation.svg" alt="playstation" width={50} height={50} />
         </div>
 
         <div className="flex flex-col gap-2">
           <span className="text-secondary-font">Ваша подписка</span>
           <h2 className="text-2xl font-semibold">PlayStation Plus Delux</h2>
           <div className="flex gap-3">
-            <Image src="/telegram.svg" alt="playstation" width={20} height={20} />
+            <Image src="/playstation.svg" alt="playstation" width={20} height={20} />
             <span className="text-secondary-font">Игры по подписке</span>
           </div>
         </div>
