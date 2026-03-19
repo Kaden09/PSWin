@@ -11,6 +11,7 @@ import {
   Share2,
   Tag,
 } from 'lucide-react';
+import { Advantage } from '../types/advantage.type';
 
 export const advantage_data: Advantage[] = [
   {

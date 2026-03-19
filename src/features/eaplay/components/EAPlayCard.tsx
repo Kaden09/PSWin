@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 function EAPlayCard() {
   return (
-    <div className="flex flex-col gap-3 bg-secondary-background rounded-2xl p-10 border border-primary-border">
+    <div className="flex flex-col gap-3 bg-secondary-background rounded-2xl p-10 border border-primary-border min-w-100">
       <div className="flex items-end gap-5">
         <div className="bg-contrast rounded-2xl p-8">
           <Image src="/telegram.svg" alt="playstation" width={50} height={50} />

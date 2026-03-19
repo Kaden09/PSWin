@@ -1,4 +1,5 @@
-export interface Advantage {
+interface Advantage {
     icon: React.ReactNode;
     title: string;
+    desc: string;
 }
